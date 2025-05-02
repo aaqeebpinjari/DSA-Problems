@@ -138,8 +138,8 @@ int main()
     }
 
     // Change function to any brute/better/optimal
-    vector<int> result = UnionbruteForce(a, b);
-    vector<int> result = UnionBetter(a, b);
+    // vector<int> result = UnionbruteForce(a, b);
+    // vector<int> result = UnionBetter(a, b);
     vector<int> result = unionOptimal(a, b);
 
     cout << "Union of the two arrays:\n";
